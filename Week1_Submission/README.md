@@ -1,6 +1,6 @@
 # Week 1 Submission-
 
-This folder contains the training notebook and model file using EfficientNet.
+This folder contains the model file using EfficientNet.
 
 ## For Dataset
 
