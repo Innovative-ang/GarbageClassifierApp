@@ -1,4 +1,4 @@
-#🗑️ Week 2 Submission – Garbage Classification Deployment with Gradio UI
+**#🗑️ Week 2 Submission – Garbage Classification Deployment with Gradio UI**# 🗑️ Week 2 Submission – Garbage Classification Deployment with Gradio UI
 
 🔍 Objective
 In Week 2 of the AICTE Internship project, the focus was on model optimization and deployment. After training the garbage classification model, I created a Gradio web interface that allows users to upload images and get real-time predictions of garbage material.
