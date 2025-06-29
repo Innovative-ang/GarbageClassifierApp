@@ -1,64 +1,49 @@
-**# 🗑️ Week 2 Submission – Garbage Classification Deployment with Gradio UI
-**
+# 🗑️ Week 2 Submission – Garbage Classification Deployment with Gradio UI
 
-🔍 Objective
-In Week 2 of the AICTE Internship project, the focus was on model optimization and deployment. After training the garbage classification model, I created a Gradio web interface that allows users to upload images and get real-time predictions of garbage material.
+🔍 **Objective**  
+In Week 2, the focus was on model optimization and deployment. After training the garbage classification model, I created a Gradio web interface to allow users to upload images and get real-time predictions of garbage material.
 
-✅ Tasks Completed in Week 2
-📦 Switched to a lighter and faster model: EfficientNetV2B0
+---
 
-⚖️ Implemented Focal Loss to handle class imbalance more effectively
+## ✅ Tasks Completed in Week 2
 
-🔁 Fine-tuned deeper layers of the model for improved accuracy
+- 📦 Switched to a lighter and faster model: **EfficientNetV2B0**  
+- ⚖️ Implemented **Focal Loss** to handle imbalanced classes  
+- 🔁 Fine-tuned deeper layers for better accuracy  
+- 📉 Added class weights, early stopping, and LR scheduling  
+- 📷 Created a **Gradio UI** for uploading and predicting material  
+- 📊 Plotted **Accuracy & Loss Graphs** over epochs  
+- 🔍 Displayed **Confusion Matrix** to evaluate class-wise performance  
+- 💡 Optimized CPU usage (optional GPU disabling)  
+- 🌐 Used `inbrowser=True` to launch the app directly in browser  
+- 🧪 Final model achieved ~90%+ validation accuracy  
 
-📉 Applied Class Weights, Early Stopping, and ReduceLROnPlateau to stabilize training
+---
 
-📷 Built a Gradio UI for uploading garbage images and getting material predictions
+## ⚙️ Deployment & UI
 
-📊 Plotted Accuracy & Loss Graphs over the training epochs
+- Used **Gradio** for an interactive web interface  
+- Upload garbage images → see material type + confidence score  
+- Easy to test in browser via notebook  
 
-🔍 Displayed Confusion Matrix to evaluate class-wise prediction performance
+---
 
-💡 Optimized CPU usage (optionally disabled GPU and tuned thread usage)
+## 🔁 Why I used EfficientNetV2B0 instead of EfficientNetV2B2
 
-🌐 Used inbrowser=True to launch the Gradio app directly in a browser
+- ✅ B0 trains faster, uses less memory, and suits my CPU-based laptop  
+- 📊 Still gives high accuracy (~90%) for our small dataset  
+- ⚙️ Best choice for deployment & speed without needing a GPU  
 
-🧪 Final model achieved ~90%+ validation accuracy
+---
 
-⚙️ Deployment & UI
-✅ Interface Built Using: Gradio
+## 📈 Model Evaluation
 
-📤 Users Can:
-→ Upload garbage images (plastic, glass, metal, etc.)
-→ Get real-time prediction of the material type
-→ View the confidence (accuracy) score
+- **📊 Accuracy & Loss Graphs:**  
+  Shows steady training progress and model convergence  
 
-
-🔁 Why I Used EfficientNetV2B0 Instead of EfficientNetV2B2
-✅ B0 is faster to train and uses less memory
-
-💻 Well-suited for CPU-only environments (like my laptop)
-
-📊 Still achieved ~90%+ accuracy with our small dataset
-
-
-📈 Model Evaluation
-📊 Accuracy & Loss Graphs
-→ Show training progress and validation trends over epochs
-→ Help visualize model learning and convergence
-
-📉 Confusion Matrix
-→ Displays prediction performance per class
-→ Highlights which classes were misclassified and helps refine the model
-
+- **📉 Confusion Matrix:**  
+  Visual breakdown of predictions per class to spot misclassifications  
 
 ⚙️ Ideal for deployment and speed without requiring GPU resources
-
-
-🧪 Final Notes
-🔧 Model File Used:
-efficientnetv2b0_garbage_classifier_fixed.h5 (saved after fine-tuning)
-
-📓 Notebook File:
-train_model.ipynb includes full pipeline – from training to deployment
-
+🧪 Final Notes 🔧 Model File Used: efficientnetv2b0_garbage_classifier_fixed.h5 (saved after fine-tuning)
+📓 Notebook File: train_model.ipynb includes full pipeline – from training to deployment
