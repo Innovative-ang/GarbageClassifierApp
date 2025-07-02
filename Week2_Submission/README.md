@@ -45,5 +45,5 @@ In Week 2, the focus was on model optimization and deployment. After training th
   Visual breakdown of predictions per class to spot misclassifications  
 
 - **⚙️ Ideal for deployment and speed without requiring GPU resources**
-- **🧪 Final Notes 🔧 Model File Used: efficientnetv2b0_garbage_classifier_fixed.h5 (saved after fine-tuning)**
+- **🧪 Final Notes 🔧 Model File Used: efficientnetv2s_garbage_classifier_fixed.h5 (saved after fine-tuning)**
 - **📓 Notebook File: train_model.ipynb includes full pipeline – from training to deployment **
