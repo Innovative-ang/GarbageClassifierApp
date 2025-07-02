@@ -28,9 +28,9 @@ In Week 2, the focus was on model optimization and deployment. After training th
 
 ---
 
-## 🔁 Why I used EfficientNetV2B0 instead of EfficientNetV2B2
+## 🔁 Why I used EfficientNetV2B0 instead of EfficientNetV2S
 
-- ✅ B0 trains faster, uses less memory, and suits my CPU-based laptop  
+- ✅ V2S slightly larger and more powerful, uses less memory, and suits my CPU-based laptop  
 - 📊 Still gives high accuracy (~90%) for our small dataset  
 - ⚙️ Best choice for deployment & speed without needing a GPU  
 
