@@ -7,7 +7,7 @@ In Week 2, the focus was on model optimization and deployment. After training th
 
 ## ✅ Tasks Completed in Week 2
 
-- 📦 Switched to a lighter and faster model: **EfficientNetV2B0**  
+- 📦 Switched to a lighter and faster model: **EfficientNetV2S**  
 - ⚖️ Implemented **Focal Loss** to handle imbalanced classes  
 - 🔁 Fine-tuned deeper layers for better accuracy  
 - 📉 Added class weights, early stopping, and LR scheduling  
