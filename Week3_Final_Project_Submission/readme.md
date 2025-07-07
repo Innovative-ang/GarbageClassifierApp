@@ -4,7 +4,7 @@
 In Week 3, the focus was on finalizing the garbage classification project with complete evaluation, documentation, and result presentation. This phase involved analyzing model performance, tuning hyperparameters, and collecting output screenshots to demonstrate real-world usability.
 
 📂 **This folder contains:**
-- 📈 train_model.ipynb(source_code)  
+- 📈 [train_model.ipynb](./train_model.ipynb)  
 - 🖼️ Model output screenshots  
 - 📄 [`project_report.md`](./project_report.md)
 
